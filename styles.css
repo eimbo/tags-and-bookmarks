@@ -44,7 +44,8 @@ ul, ol { list-style: none;}
 	padding: 20px;
 }
 .selectedTags {
-	height: 100px;
+	min-height: 100px;
+	border-bottom: 1px solid gray;
 }
 .bookmarkWrapper {
 	display:flex;
